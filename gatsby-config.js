@@ -1,10 +1,11 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Guntoro Yudhy`,
+    siteTitleAlt: `Guntoro Yudhy - Personal Website`,
   },
   plugins: [
     {
@@ -22,12 +23,16 @@ module.exports = {
         ],
         externalLinks: [
           {
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/guntoroyk`,
+          },
+          {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/guntoroyk`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/guntoro.yk/`,
           },
         ],
       },
@@ -67,4 +72,4 @@ module.exports = {
     `gatsby-plugin-netlify`,
     // `gatsby-plugin-webpack-bundle-analyser-v2`,
   ],
-}
+};
