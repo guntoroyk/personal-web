@@ -31,8 +31,8 @@ module.exports = {
             url: `https://www.linkedin.com/in/guntoroyk`,
           },
           {
-            name: `Twitter`,
-            url: `https://twitter.com/guntoroyk`,
+            name: `GitHub`,
+            url: `https://github.com/guntoroyk`,
           },
           {
             name: `Instagram`,
